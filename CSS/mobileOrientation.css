@@ -1,0 +1,21 @@
+@media only screen and (orientation:portrait){
+  /*div#main-container.android-view{
+    display: none;
+    }
+    div#android-warning.android-view{
+      display: block;
+    }
+      */
+
+      /*Put CSS here for portrait styling*/
+
+}
+@media only screen and (orientation:landscape){
+  /*div#main-container.android-view{
+    display: block;
+    }
+    div#android-warning.android-view{
+      display: none;
+    }*/
+/*Put CSS here for landscape styling*/
+ }
