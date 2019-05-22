@@ -1,0 +1,1 @@
+This folder contains either, code found during a normals day research, or code written by David Hartman.
