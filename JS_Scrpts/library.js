@@ -42,3 +42,16 @@ const arrFibonacci = num => {
     }
     return arr
 }
+
+// returns a flat array given an array of unknow depth.
+// Use: pass an array of unknow depth to receive a flat 
+// array in return
+const arrFlatten = arr => {
+    return arr.flatMap(el => {
+        const flatten = val => {
+            return !Array.isArray(val) ? val :
+                val.flatMap(v => flatten(v))
+        }
+        return flatten(el)
+    })
+}
