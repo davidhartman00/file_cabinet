@@ -55,3 +55,14 @@ const arrFlatten = arr => {
         return flatten(el)
     })
 }
+
+
+// returns true false: checks a string if its a palindrome
+const strPalindromeTrueFalse = str =>{
+    //true string into array and clean of non alphanumeric charactors 
+    let arr = str.toLowerCase().split("").filter(el => /[a-z0-9]/i.test(el)) 
+    //copy arr and reverse order 
+    let arrR = [...arr].reverse()
+    //compair
+    return arr.join("") === arrR.join("")
+}
