@@ -66,3 +66,4 @@ const strPalindromeTrueFalse = str =>{
     //compair
     return arr.join("") === arrR.join("")
 }
+
